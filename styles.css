@@ -9,7 +9,7 @@ body{
 }
 .header>h1{
 	 background-color:#011e29;
-	text-align:center;
+	text-align:start;
 	padding:20px;
 	color:white;
 }
