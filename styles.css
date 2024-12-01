@@ -3,19 +3,20 @@
 	margin:0px;
 	padding:0px;
 	box-sizing:border-box;
+	font-family:arial;
 }
 body{
 	background-color:#f5f5f5;
 }
 .header>h1{
 	 background-color:#011e29;
-	text-align:start;
+	text-align:center;
 	padding:20px;
 	color:white;
 }
 .main{
 	display:flex;
-	margin:10px;
+	padding:10px 20px;
 	justify-content:space-evenly;
 }
 .item{
@@ -34,6 +35,8 @@ body{
 	background-color:white;
 	display:flex;
 	flex-direction:column;
+	margin-right:5px;
+	padding:5px 5px;
 }
 .main-article>h2{
 	padding:20px;
@@ -47,7 +50,9 @@ body{
 	background-color:white;
 	display:flex;
 	flex-direction:column;
+	margin-right:5px;
 }
+
 .pictorial-news-section{
 	border:2px solid white;
 	border-radius:20px;
@@ -57,4 +62,8 @@ body{
 	display:flex;
 	flex-direction:column;
 	text-align:center;
+}
+.pictorial-news-section>h3{
+	font-weight:700px;
+	margin:20px;
 }
